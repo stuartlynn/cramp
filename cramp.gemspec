@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   # s.required_ruby_version = '>=1.9.2'
 
   s.add_dependency('activesupport', '>= 3.0.3')
-  s.add_dependency('rack',          '~> 1.2.1')
+  s.add_dependency('rack',          '>= 1.2.1')
   s.add_dependency('eventmachine',  '~> 1.0.0.beta.3')
   s.add_dependency('thor',          '~> 0.14.6')
 
